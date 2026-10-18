@@ -507,7 +507,7 @@
 
           <section>
             <div class="sec-head">
-              <h2 class="sec-title" data-ko="오늘의 행사" data-en="Today's deals" data-zh="今日优惠" data-ja="本日のお得情報">오늘의 행사</h2>
+              <h2 class="sec-title" data-ko="이달의 행사" data-en="This month's deals" data-zh="本月优惠" data-ja="今月のお得情報">이달의 행사</h2>
             </div>
             <div id="promo-board">
               <div class="promo-empty">
@@ -887,10 +887,12 @@
           }
         }
 
-        /* ---------- today's promotions board ----------
+        /* ---------- promotions board ----------
            행사 게시판은 이 EVENTS 배열 하나로 관리한다. 점주가 한국어 행사
            문구를 주면, 항목 하나당 객체 하나씩 4개 언어(ko/en/zh/ja)로
-           번역해 아래에 넣으면 홈 탭 '오늘의 행사'에 바로 표시된다.
+           번역해 아래에 넣으면 홈 탭 '이달의 행사'에 바로 표시된다.
+           항목 수 제한 없이 배열의 모든 항목이 게시판에 전부 표시된다
+           (접기·더보기·개수 제한 없음).
            tag는 "1+1" 같은 짧은 표기(선택). 배열이 비어 있으면
            '오픈 후 업데이트됩니다' 안내가 그대로 보인다.
            예시:
