@@ -409,19 +409,11 @@
       .metro { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--line); }
       .metro-item { font-size: 12.5px; font-weight: 600; background: var(--surface-2); border-radius: 8px; padding: 5px 10px; }
 
-      /* ---------- review note card ---------- */
-      .review-card {
-        margin-top: 38px; background: var(--surface); border: 1px solid var(--line);
-        border-radius: 16px; padding: 16px 18px; box-shadow: var(--shadow);
-        display: flex; gap: 12px; align-items: flex-start;
+      /* ---------- review note line ---------- */
+      .review-line {
+        margin-top: 30px; font-size: 13px; color: var(--ink-soft);
+        text-align: center; line-height: 1.6;
       }
-      .review-icon {
-        flex: none; width: 38px; height: 38px; border-radius: 11px;
-        display: grid; place-items: center;
-        background: var(--green-tint); color: var(--green-deep);
-      }
-      .review-title { font-size: 15px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 4px; }
-      .review-body { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
 
       footer {
         margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line);
@@ -568,6 +560,8 @@
               </button>
             </div>
           </section>
+
+          <p class="review-line" data-ko="후기 남기실 때 지하 2층 편의점 이야기도 한 줄 부탁드려요." data-en="Leaving a review? A line about our B2 convenience store helps other travelers!" data-zh="写评价时，欢迎提一句地下2层的便利店，谢谢！" data-ja="レビューの際は、地下2階のコンビニのことも一言お願いします。">후기 남기실 때 지하 2층 편의점 이야기도 한 줄 부탁드려요.</p>
 
         </div>
 
@@ -774,16 +768,6 @@
               </details>
             </div>
           </section>
-
-          <div class="review-card">
-            <span class="review-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-            </span>
-            <div>
-              <h3 class="review-title" data-ko="숙박 후기에 한 줄만 부탁드려요" data-en="One line in your review, please" data-zh="写住宿评价时，欢迎提一句便利店" data-ja="ご宿泊レビューに一言お願いします">숙박 후기에 한 줄만 부탁드려요</h3>
-              <p class="review-body" data-ko="트래블로지 강남 역삼 호텔 숙박 후기를 남기실 때, 지하 2층 GS25 역삼트레블로지점 이용 경험을 한 줄 적어주시면 다른 여행자분들께 큰 도움이 됩니다." data-en="If you leave a review of your stay at Travelodge Gangnam Yeoksam, a line about your visit to GS25 Yeoksam Travelodge on B2 would be a big help to fellow travelers." data-zh="如果您为酒店写住宿评价，欢迎用一句话分享您在地下2层 GS25 驿三Travelodge店的购物体验，会对其他旅客很有帮助。" data-ja="ホテルのご宿泊レビューを書かれる際、地下2階のGS25 ヨクサムトラベロッジ店のご利用体験を一言添えていただけると、他の旅行者の参考になります。">트래블로지 강남 역삼 호텔 숙박 후기를 남기실 때, 지하 2층 GS25 역삼트레블로지점 이용 경험을 한 줄 적어주시면 다른 여행자분들께 큰 도움이 됩니다.</p>
-            </div>
-          </div>
 
         </div>
       </main>
